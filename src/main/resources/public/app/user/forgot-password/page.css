@@ -1,0 +1,22 @@
+
+forgot-password-page .container
+{
+    width: 500px;
+}
+
+forgot-password-page .container .success-message
+{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+forgot-password-page .container .error-message
+{
+    color: rgb(214, 58, 41);
+    padding-bottom: 10px;
+}
+
+forgot-password-page .container .cancel
+{
+    margin-left: 10px;
+}

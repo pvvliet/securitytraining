@@ -1,0 +1,26 @@
+
+todo-page .container
+{
+    width: 1024px;
+}
+
+todo-page .grid
+{
+    width: 98%;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+        "form items";
+}
+
+todo-page todo-item-form
+{
+    grid-area: form;
+}
+
+todo-page todo-item-list
+{
+    grid-area: items;
+}

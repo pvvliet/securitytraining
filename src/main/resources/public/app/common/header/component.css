@@ -1,0 +1,59 @@
+
+header
+{
+    position: fixed;
+    min-width: 1024px;
+    width: 100%;
+    text-align: center;
+}
+
+header .container
+{
+    display: inline-block;
+    width: 1024px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+header .title
+{
+    display: inline-block;
+    font-size: 40px;
+}
+
+header .small .title
+{
+    width: 100%;
+    text-align: center;
+}
+
+header .full .title
+{
+    width: 710px;
+}
+
+header .slogan
+{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+}
+
+header .user-info
+{
+    display: inline-block;
+    width: 300px;
+    top: 15px;
+    right: 10px;
+    text-align: right;
+}
+
+header .small .user-info
+{
+    display: none;
+}
+
+header .user-info .username
+{
+    font-size: 20px;
+    margin-bottom: 5px;
+}

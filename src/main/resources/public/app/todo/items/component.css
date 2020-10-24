@@ -1,0 +1,44 @@
+
+todo-item-list .no-items
+{
+    color: rgb(102, 102, 102);
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+todo-item-list .todo-items
+{
+    color: rgb(92, 92, 92);
+    padding-top: 10px;
+}
+
+todo-item-list .todo-item
+{
+    border-radius: 5px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-rows: auto;
+    grid-template-columns: 20px auto;
+    grid-template-areas:
+        "done description";
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0px;
+    border-top: 1px solid rgb(222, 222, 222);
+}
+
+todo-item-list .todo-item:last-child
+{
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+todo-item-list .todo-item input
+{
+    grid-area: done;
+}
+
+todo-item-list .todo-item .description
+{
+    padding-top: 2px;
+    grid-area: description;
+}

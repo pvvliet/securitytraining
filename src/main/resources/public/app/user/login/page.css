@@ -1,0 +1,11 @@
+
+login-page .container
+{
+    width: 500px;
+}
+
+login-page .container .error-message
+{
+    color: rgb(214, 58, 41);
+    padding-bottom: 10px;
+}
